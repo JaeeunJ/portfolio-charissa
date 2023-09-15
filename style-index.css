@@ -1,0 +1,477 @@
+#header {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: var(--color-text-secondary); */
+    width: 99vw;
+}
+
+#header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 100vw;
+    border-radius: 0.25rem;
+    /* border: 0.15rem solid var(--color-text-secondary); */
+    /* background-color: var(--color-background-primary); */
+}
+
+#header-title {
+    margin-top: 14vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    overflow: hidden;
+    height: auto;
+    text-align: left;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; */
+}
+
+#header-title-content h1 {
+    font-weight: 500;
+    line-height: 5.2vw;
+    overflow: hidden;
+    letter-spacing: -0.25vw;
+}
+
+#header-title-scroll {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    /* padding-left: 6vw; */
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    opacity: 0.25;
+}
+
+#header-title-scroll h4 {
+    font-weight: 500;
+    color: var(--color-text) !important;
+}
+
+/* #header-profile{
+    width: 10vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    margin-bottom: 2vw;
+    margin-top: 1vw;
+} */
+
+#header-title-scroll img{
+    margin: none;
+    height: 1.25vmax;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+}
+
+#header-image {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.1rem;
+}
+
+#header-image img{
+    width: 100%;
+    border-radius: 0.25rem;
+    margin-bottom: 0.1vmax;
+}
+
+/* ------------------------------------------------------- */
+
+#header-img {
+    display: flex;
+    width: 100vw;
+}
+
+#header-img img{
+    width: 100%;
+    margin-top: 2vw;
+    margin-right: 8vw;
+    margin-left: 8vw;
+    margin-bottom: 0vw;
+}
+
+/* ------------------------------------------------------- */
+
+#filler-designs h2{
+    margin-left: 7.5rem;
+}
+
+#filler-designs div img {
+    margin-right: 7.5rem;
+}
+
+/* -------------------------------------------------------- */
+
+#about-me {
+    background-color: var(--color-background-primary);
+    width: 100vw;
+}
+
+#about-me-content-wrapper {
+    margin: 8vw;
+    margin-top: 10vw;
+    margin-bottom: 4vw;
+    text-align: center;
+}
+
+#about-me-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-me-desc {
+    text-align: left;
+    width: auto;
+}
+
+#about-me-expand {
+    background-color: var(--color-background-primary);
+}
+
+#about-me h2, .about-me h3 {
+    font-weight: 600;
+    margin-bottom: 0.5vw;
+}
+
+#about-me h2 {
+    margin-bottom: 4vw;
+}
+
+#about-me h4 {
+    opacity: 0.25;
+    font-weight: 500;
+    width: 40vw;
+}
+
+.about-me-desc h4 {
+    width: 26vw;
+    /* opacity: 100%; */
+}
+
+.about-me-desc img {
+    /* border: 0.25vw solid var(--color-text); */
+    border-radius:0.25rem;
+    margin-bottom: 1vw;
+    width: 25vw;
+}
+
+.about-me-desc a:hover {
+    cursor: pointer;
+    filter: brightness(75%);
+    transition: all 1s ease;
+}
+
+.about-me-desc a h3 {
+    width: auto;
+    color: var(--color-text);
+} 
+
+.about-me-desc h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.about-me-desc h3 span img {
+    width: 1.5vw;
+    margin: 0;
+    margin-left: 0.5vw;
+}
+
+/* --------------------------------------------------------- */
+
+#experience {
+    margin-top: 2vw;
+    width: 100%;
+    background-color: var(--color-background-secondary);
+}
+
+#experience-wrapper {
+    margin-left: 8vw;
+    margin-right: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#experience-wrapper h2 {
+    width: 40vw;
+    margin-top: 9vw;
+    text-align: left;
+    color: var(--color-text);
+    margin-bottom: 4vw;
+    font-weight: 600;
+    line-height: 4vw;
+    overflow: hidden;
+}
+
+#experience-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    padding-right: 12vw;
+    margin-top: 8vw;
+    margin-bottom: 8vw;
+}
+
+#experience-content {
+    color: var(--color-text);
+    margin-bottom: 4vw;
+}
+
+#experience-company, #experience-content h4 {
+    opacity: 0.25;
+    text-transform: uppercase;
+}
+
+/* --------------------------------------------------------- */
+
+#ux-design {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 12vw;
+    width: 100%;
+    border-radius: 0.25rem;
+    background-color: #f8f8f8;
+    border-radius: 1.5vw;
+    border: solid 0.15vw var(--color-background-secondary)
+}
+
+#ux-design-content-wrapper {
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-top: 12vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ux-design-content-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#ux-design-content-title h3 {
+    margin-top: 1.5vw;
+    margin-right: 1vw;
+}
+
+#ux-design-content-title h1, #ux-design-content-title h3 {
+    color: var(--color-text)
+}
+
+#ux-design-content-title-words {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vw;
+}
+
+#ux-design-content-inner-wrapper {
+    width: 83vw;
+}
+
+#ux-design-content-inner-2 {
+    width: 49%;
+}
+
+#ux-design-content-inner-3 {
+    width: 32%;
+}
+
+#ux-design-content-inner-wrapper-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#ux-design-content-image {
+    height: 65vh;
+    background-color: var(--color-background-primary);
+    margin-top: 8vh;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+#ux-design-content-image img {
+    width: 100%;
+}
+
+#ux-design-content-image:hover {
+    cursor: pointer;
+    transition: all 1s ease;
+    filter: brightness(75%)
+}
+
+#section-label-title {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+#section-label-title a h3 {
+    color: var(--color-text);
+}
+
+#section-label-title a h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--color-text);
+}
+
+#section-label-title a h3:visited {
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+#section-label-title h5 {
+    font-weight: 500;
+    margin-left: 0.5rem;
+}
+
+#section-label-content {
+    display:flex;
+    margin-top: 0.75vw;
+}
+
+#section-label {
+    margin-right: 0.5rem;
+    border: solid 0.15rem var(--color-text-tertiary);
+    border-radius: 100rem;
+}
+
+#section-label h6 {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    color: var(--color-text-tertiary)
+}
+
+
+/* -------------------------------------------------------- */
+
+#filler-more h2{
+    margin-right: 7.5rem;
+}
+
+#filler-more div img {
+    margin-left: 7.5rem;
+}
+
+/* -------------------------------------------------------- */
+
+/* #illustrations {
+    margin-bottom: 0.25vmax;
+}
+
+#illustrations-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 99vw;
+}
+
+#illustrations-vector {
+    width: 35vmax;
+    height: auto;
+    z-index: 1;
+}
+
+#graphic-design-content {
+    margin-top: 6vmax;
+    margin-bottom: 6vmax;
+    width: 60vmax;
+    right: 0;
+    z-index: 50;
+    display: flex;
+    flex-direction: column;
+    padding: 4vmax;
+}
+
+#illustrations-content {
+    margin-top: 6vmax;
+    margin-bottom: 6vmax;
+    width: 55vw;
+    right: 0;
+    z-index: 50;
+    display: flex;
+    flex-direction: column;
+    padding: 4vmax;
+}
+
+#illustrations-content h2 {
+    line-height: 90%;
+    overflow: hidden;
+    margin-bottom: 2vmax
+}
+
+#illustrations-content h4 {
+    color: var(--color-text);
+    font-weight: 500;
+    width: 50vmax;  
+    margin-bottom: 3vmax;  
+} */
+
+/* --------------------------------------------------------- */
+/* #graphic-design {
+    border-radius: 1.25rem;
+    background-color: var(--color-background-tertiary);
+    margin-bottom: 0.25vmax;
+}
+
+#graphic-design-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#graphic-design-content {
+    margin-top: 6vmax;
+    margin-bottom: 6vmax;
+    width: 50vw;
+    right: 0;
+    z-index: 50;
+    display: flex;
+    flex-direction: column;
+    padding: 4vmax;
+}
+
+#graphic-design-content h2 {
+    line-height: 90%;
+    overflow: hidden;
+    margin-bottom: 2vmax
+}
+
+#graphic-design-content h4 {
+    color: var(--color-text);
+    font-weight: 500;
+    width: 50vmax;  
+    margin-bottom: 3vmax;  
+}
+
+#graphic-design-vector {
+    width: 35vmax;
+}
+
+#graphic-design-button-wrapper {
+    margin-right: auto;
+} 
+
+#graphic-design-button {
+    background-color: var(--color-primary);
+} */

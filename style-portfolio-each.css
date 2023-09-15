@@ -1,0 +1,97 @@
+#rendezvoo-button {
+    background-color: #2868A3;
+}
+
+#rendezvoo-button a {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#stakeholder-map {
+    width: 40vw;
+}
+
+#stakeholder-map-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#stakeholder-map-desc {
+    width: 40vw;
+    margin-left: 2vw;
+}
+
+#stakeholder-map-desc h4 ol li {
+    margin-bottom: 2vw;
+}
+
+/* ------------------------------------------------------- */
+
+#user-personas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#user-personas div img {
+    width: 100%;
+}
+
+/* ------------------------------------------------------ */
+
+#user-flow img{
+    width: 100%;
+}
+
+/* ------------------------------------------------------ */
+
+#unmoderated-survey-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#unmoderated-survey-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#unmoderated-survey-content {
+    margin-top: 2vw;
+    padding: 2vw;
+    background-color: var(--color-background-tertiary);
+    border-radius: 0.25rem;
+}
+
+#unmoderated-survey-img img {
+    border-radius: 0.3rem;
+    width: 49%;
+}
+
+#decision-matrix {
+    display: flex;
+    padding-left: 2vw;
+}
+
+#decision-matrix h4 {
+    text-indent: 4vw;
+    margin-top: 1vw;
+    opacity: 0.5;
+}
+
+#decision-matrix img {
+    width: 90%;
+}
+
+#flow-analysis-wrapper {
+    width: 80%;
+    padding: 2vw;
+    background-color: var(--color-background-tertiary);
+    border-radius: 0.25rem;
+}
+

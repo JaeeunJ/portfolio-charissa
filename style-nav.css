@@ -1,0 +1,84 @@
+nav {
+    position: absolute;
+    width: 100vw;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    background-color: var(--color-background-primary);
+    /* border-bottom: 0.1rem solid var(--color-text); */
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    overflow: hidden;
+    padding-top: 0.5vmax;
+    padding-bottom: 0.5vmax;
+}
+
+#nav-number {
+    opacity: 0.25;
+}
+
+#nav-logo a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3vw;
+}
+
+#nav-logo a h6 {
+    color: var(--color-text);
+    margin-left: 0.5vw;
+}
+
+#nav-logo a img {
+    width: 3vw;
+}
+
+#nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin-right: 3vw;
+    overflow: hidden;
+}
+
+#nav-links li {
+    overflow: hidden;
+    padding-right: 2vmax;
+    padding-left: 2vmax;
+    padding-top: 0.75vmax;
+    padding-bottom: 0.75vmax;
+    margin-right: 1vmax;
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-links li a {
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+#nav-links li a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#nav-links li a h6 {
+    font-weight: 600;
+}
+
+#contact-button-wrapper {
+    display: flex;
+    align-items: center;
+    margin-right: 0.5vmax;
+}
+
+#contact-button a h6{
+    color: white;
+    font-weight: 600;
+    margin-right: 0.25vw;
+}

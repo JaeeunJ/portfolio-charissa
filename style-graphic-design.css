@@ -1,0 +1,61 @@
+.graphic-design-section {
+    margin-bottom: 2vw;
+}
+
+#asg-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw;
+    background-color: var(--color-background-secondary);
+}
+
+#asg-wrapper img{
+    width: 100%;
+    margin-right: 8vw;
+    margin-top: 6vw;
+    margin-bottom: 6vw;
+}
+
+#asg-wrapper h4 {
+    width: 100%;
+    margin-top: 1vw; 
+}
+
+/* --------------------------------------------------------- */
+
+#liveguard-wrapper {
+    background-color: #0088EB;
+    padding: 4vw;
+}
+
+#liveguard-wrapper h4, #liveguard-wrapper h2 {
+    color: var(--color-background-primary);
+}
+
+#liveguard-wrapper img {
+    margin-top: 2vw;
+    width: 100%;
+}
+
+/* --------------------------------------------------------- */
+
+#poster-wrapper {
+    padding: 4vw;
+}
+
+#poster-content {
+    margin-bottom: 2vw;
+}
+
+#poster-images {
+    display: flex;
+    flex-direction: row;   
+}
+
+#poster-images img {
+    margin-right: 0.5vw;
+    border-radius: 0.25vw;
+    border: 0.15vw solid #CAC39B;
+}
