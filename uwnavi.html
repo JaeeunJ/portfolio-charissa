@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Charissa Jeong</title>
+        <link rel="stylesheet" href="style-main.css">
+        <link rel="stylesheet" href="style-vola.css">
+        <link rel="stylesheet" href="style-navbar.css">
+        <link rel="stylesheet" href="style-portfolio-main.css">
+        <link rel="stylesheet" href="style-portfolio.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <script  type="module" src="./myscripts.js"></script>
+        <div id="nav-wrapper">
+            <a href="index.html"><img src="Images/Navbar/Logo.svg" alt="Logo" id="logo"></a>
+            <div id="nav-content">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="nav">
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#experience">EXPERIENCE</a></li>
+                    <li><a href="#ux-design">PORTFOLIO</a></li>
+                    <li><a class="main-button" href="mailto:charissaj2003@gmail.com">CONTACT ME</a></li>
+                </ul>
+            </div>
+            <div id="social-media">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/charissa-jeong-509ba3217/" target="_blank"><img src="Images/Navbar/Linkedin.svg"></a></li>
+                    <li><a href="mailto:charissaj2003@gmail.com"><img src="Images/Navbar/Mail.svg"></a></li>
+                    <li><a href="https://drive.google.com/file/d/1mN-eSFRFmTxRR3yWor_-gxwz9pfcq4cd/view?usp=sharing"><img src="Images/Navbar/Resume.svg"></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="header" id="uwnavi">
+            <!-- <img src="Images/UX Design/Vola-Logo.svg" alt="VOLA Logo" class="header-logo"> -->
+            <div class="header-text">
+                <div class="header-title">
+                    <div class="header-title-main">
+                        <h1>UW NAVI</h1>
+                        <img src="Images/Figma-logo.svg" alt="Figma Logo" id="header-logo">
+                    </div>
+                    <h4><b>SYDE 162</b> Final Project</h4>
+                </div>
+                <div class="header-desc">
+                    <a target='_blank' class="main-button" href="https://www.figma.com/proto/0lNodaimoZNKTAPP0LjirM/162-Prototype?page-id=2%3A3&node-id=7%3A448&viewport=-1071%2C891%2C0.2&scaling=scale-down&starting-point-node-id=7%3A448&hide-ui=1">SEE PROTOTYPE</a>
+                </div>
+            </div>
+            <img src="Images/UWNAVI/Final-mockups.svg" alt="Rendezvoo" class="header-mockups">
+        </section>
+        <section class="summary">
+            <div class="summary-text">
+                <h2>My Role</h2>
+                <h3>Product Designer</h3>
+            </div>
+            <div class="summary-text">
+                <h2>The Team</h2>
+                <h3>1 Product Designer, 2 UX Researchers, 3 UX Writers</h3>
+            </div>
+            <div class="summary-text">
+                <h2>Duration</h2>
+                <h3>August 2022</h3>
+            </div>
+        </section>
+        <section class="portfolio-section">
+            <div class="portfolio-section-title" id="problem-section">
+                <h1>PROBLEM STATEMENT</h1>
+                <span></span>
+                <h2>WHAT DEFINE OUR METRICS OF SUCCESS</h2>
+            </div>
+            <div class="problem-box" id="problem-statement">
+                <h2>THE PROBLEM</h2>
+                <h3>The current system of <b>locating classrooms</b> at the university often requires the usage of static, inconspicuous floor plans, whose <b>unintuitive nature</b> leads to students getting lost and wasting time using <b>inefficient</b> routes.</h3>
+            </div>
+            <div id="pain-points-wrapper">
+                <div class="problem-box" id="pain-points">
+                    <h2>PAIN POINTS</h2>
+                    <ol>
+                        <li><h4>Users often use applications such as Google Maps to locate a building. However, location markers are often placed in the middle of a building which may not lead users to a particular entrance or the closest one to their desired room, especially in larger, more complex buildings.</h4></li>
+                        <li><h4>Upon entry of a building, to locate a room, users typically have to read <b>static, confusing floor plans</b> scattered inside.</h4></li>
+                        <li><h4>For convenience, there are several food vendors run by UWaterloo on campus. However, most <b>lack reviews</b> and their restaurant descriptions are <b>biased</b> for advertisement purposes.</h4></li>
+                        <li><h4>Some <b>study areas</b> may be better than others, for instance, several of the desk lights in the Peter Simms study area of Davis Centre do not work, leading to students being <b>inconvenienced</b> searching for a suitable spot.</h4></li>
+                        <li><h4>There are areas on campus which are <b>not wheelchair-accessible,</b> but widely used map applications do not have a feature which filters routes down based on accessibility needs or weather conditions.</h4></li>
+                    </ol>
+                </div>
+                <div id="problem-solution">
+                    <h3> = Lack of <b>seamless integration of an outdoor campus map and indoor floor plan</b></b></h3>
+                </div>
+            </div>
+            <div class="problem-box" id="design-solution">
+                <h2>DESIGN SOLUTION</h2>
+                <h3>Create a more responsive and convenient navigation system that is beneficial and <b>accessible</b> to all members of the campus community.</b></h3>
+                <h3><b>Initial Requirements:</b></h3>
+                <ol>
+                    <li><h4><b>Instant navigation feature</b> to a specific location or to a friend</h4></li>
+                    <li><h4>“Friending” system, where users can choose to have <b>their location shown to others</b></h4></li>
+                    <li><h4><b>Rating system</b> where fellow users can rate study spots, classrooms and eateries</h4></li>
+                    <li><h4>Onboarding screen with authentication for <b>security</b> purposes</h4></li>
+                    <li><h4>Search bar and route filter with options to select <b>fastest, indoors, or wheelchair-accessible route</b></h4></li>
+                    <li><h4>Campus map seamlessly integrates with building floorplan to lead users to a specific room in a building</h4></li>
+                </ol>
+            </div>
+        </section>
+        <section class="portfolio-section">
+            <div class="portfolio-section-title" id="unmoderated-survey">
+                <h1>UNMODERATED SURVEY</h1>
+                <span></span>
+                <h2>EMPHASIZING WITH USERS</h2>
+            </div>
+            <div class="unmoderated-survey-body">
+                <img src="Images/UWNAVI/Survey-1.png" alt="Unmoderated user test results">
+                <img src="Images/UWNAVI/Survey-2.png" alt="Unmoderated user test results">
+            </div>
+            <div class="unmoderated-survey-desc">
+                <h4>Our group created a survey, consisting of <b>32 students/users</b>, to seize their inconvenience while navigating around the UWaterloo campus. The pie chart of the survey results shows that <b>84.4</b> percent of users experienced difficulties at least once while navigating to UWaterloo facilities. Among them, as the bar graph on the right represents that most users answered that they need to visit the same place <b>three or more times</b> before they become accustomed to the route.</h4>
+            </div>
+        </section>
+        
+        <section class="portfolio-section" id="moderated-test">
+            <div class="portfolio-section-title">
+                <h1>MODERATED USER TESTS</h1>
+                <span></span>
+                <h2>LEARNING FROM USERS</h2>
+            </div>
+            <div class="moderated-test-results">
+                <a href="https://docs.google.com/document/d/1gxbNofMlS-mTBsyuKdXUebTwdKfdj8AJLV9t2P_nnMM/edit?usp=sharing"><h2>VIEW RESULTS HERE</h2><img src="Images/VOLA/Portfolio-Arrow.svg"></a>
+            </div>
+            <div> 
+                <div class="unmoderated-survey-desc">
+                    <h4>From the moderated user test, we saw that we emphasized with the users through identifying our initial pain points, which will be addressed in our design. Having both <b>preliminary questions</b> and <b>testing prompts</b> allowed us to gain a <B>first-hand perspective</b> in order to effectively design our mapping application. An issue that was raised by a participant was that Google Maps’ default route through campus involved going up a set of stairs and did not have a wheelchair-accessible option.</h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-section" id="decision-matrix">
+            <div class="portfolio-section-title">
+                <h1>FLOW ANALYSIS</h1>
+                <span></span>
+                <h2>PLANNING AHEAD</h2>
+            </div>
+            <div id="decision-matrix-body">  
+                <img src="Images/UWNAVI/Decision-Matrix.png" alt="Decision Matrix">
+                <div class="unmoderated-survey-desc">
+                    <h4>Our decision matrix shows three of our friend features and the thought process we endured when deciding whether to keep them. We used two metrics: how the design would <b>improve our socializing and navigation goals</b>. For both the friend “summoning” feature and the locating a friend features, they were at a “4” for the metrics, thus we decided to implement them. For the “update” feature, it also helps users socialize but does not really contribute to making navigation easier for users. We ultimately decided on keeping this feature as we believed it is an integral part of our design, promoting <b>more use of the application</b> and <B>initiating more navigation requests</B>.
+                    </h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-section" id="user-flow">
+            <div class="portfolio-section-title">
+                <h1>DESIGN SYSTEM</h1>
+                <span></span>
+                <h2>BACKBONE OF THE UI</h2>
+            </div>
+            <div class="design-system-component">
+                <h2>PALETTE</h2>
+                <h3>A bright, cheerful teal was chosen as the main colour to make the app stand out, as well as to make the overall experience more enjoyable.</b></h3>
+                <div class="palette-list">
+                    <div class="color-block" id="u-36C3C3">
+                        <h3>Primary</h3>
+                    </div>
+                    <div class="color-block" id="u-EBF9F9">
+                        <h3>Secondary & Buttons</h3>
+                    </div>
+                    <div class="color-block" id="u-E82A2A">
+                        <h3>Alerts</h3>
+                    </div>
+                    <div class="color-block" id="u-2A2B2E">
+                        <h3>Primary Text</h3>
+                    </div>
+                    <div class="color-block" id="u-8C8C8C">
+                        <h3>Secondary Text</h3>
+                    </div>
+                    <div class="color-block" id="u-FFFFFF">
+                        <h3>Primary Text (Light)</h3>
+                    </div>
+                    <div class="color-block" id="u-F4F4F4">
+                        <h3>Secondary Text (Light)</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="design-system-component">
+                <h2>TYPOGRAPHY</h2>
+                <h3>I chose a single, sans-serif font to reflect the simple aesthetic and casual nature of the app.</b></h3>
+                <img src="Images/UWNAVI/Typography.svg">
+            </div>
+            <div class="design-system-component">
+                <h2>COMPONENTS</h2>
+                <h3>Although we were pressed on time, I still believed that creating a <b>strong design system</b> would be worth it; here are some of the most frequently used components, as well as iconography!</b></h3>
+                <div class="design-system-icons">
+                    <div id="r-component-wrapper">
+                        <h3>Iconography</h3>
+                        <img src="Images/UWNAVI/Iconography.svg" id="r-component">
+                        <h3 id="r-layer">Buttons</h3>
+                        <img src="Images/UWNAVI/Buttons.svg" id="r-component">
+                    </div>
+                    <div class="vertical-line" id="r-component-wrapper"></div>
+                    <div id="r-component-wrapper">
+                        <h3>Inputs</h3>
+                        <img src="Images/UWNAVI/Inputs.svg" id="r-component">
+                    </div>
+                    <div class="vertical-line" id="r-component-wrapper"></div>
+                    <div id="r-component-wrapper">
+                        <h3>Modal</h3>
+                        <img src="Images/UWNAVI/LongModal.svg" id="r-component">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-section" id="final">
+            <div class="portfolio-section-title">
+                <h1>FINAL</h1>
+                <span></span>
+                <h2>FINAL DESIGN AND TAKEAWAYS</h2>
+            </div>
+            <div class="final-title-wrapper">
+                <div class="final-title">
+                  <h2>Final Design</h2>
+                   <a class="main-button" target="_blank" href="https://www.figma.com/proto/0lNodaimoZNKTAPP0LjirM/162-Prototype?page-id=2%3A3&node-id=7%3A448&viewport=-1071%2C891%2C0.2&scaling=scale-down&starting-point-node-id=7%3A448&hide-ui=1">SEE PROTOTYPE</a>
+                </div>
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F0lNodaimoZNKTAPP0LjirM%2F162-Prototype%3Fpage-id%3D2%253A3%26node-id%3D7%253A448%26viewport%3D657%252C426%252C0.37%26scaling%3Dscale-down%26starting-point-node-id%3D7%253A448" allowfullscreen></iframe>
+                <!-- <img src="Images/UWNAVI/Final-mockups.svg"> -->
+            </div>
+            <div class="final-thoughts">
+                <h2>Final Takeaways</h2>
+                <h3>This was the first time I tried designing an entire application without other UX designers. It was a very eye-opening experience, and I realize it's a lot more work than it looks like.</h3>
+                <h3>If I could improve on anything next time, it would be to create more components so the app could be more cohesive to a new user. The process was very smooth sailing otherwise- considering it was due the week before finals, I'm very pleased with the result.</h3>
+                <div>
+                    <a href="vola.html" class="main-button" id="next-design-button">NEXT DESIGN</a>
+                </div>
+            </div>
+            <div id="footer" class="tag">
+                <!-- <img src="Images/Character-2.svg" id="footer-character"> -->
+                <div>
+                    <h1><a href="index.html">CHARISSA JEONG</a></h1>
+                    <img src="Images/Arrow.svg" alt="Look at the left!">
+                </div>
+                <div>
+                    <h3>Made with love in 2023</h3>
+                    <h4>(a.k.a. html, css, and javascript)</h4>
+                </div>
+            </div>
+        </section>
+    </body>

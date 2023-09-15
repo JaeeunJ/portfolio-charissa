@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap');
+
+* {
+    scroll-behavior: smooth;
+
+    font-family: 'Poppins';
+    overflow-x: hidden;
+    user-select: none;
+    margin: 0;
+
+    /*primary colors*/
+    --color-primary: #00A4FF;
+    --color-secondary: #EE6B97;
+    --color-tertiary: #8BCCF0;
+
+    --color-secondary-darker: #DEDEDE;
+    --color-secondary-darkest: #F2F2F2;
+
+    /*typography & button colors*/
+    --color-text: #1B1B1B;
+    --color-text-secondary: #FAFAFA;
+
+    /*background colors*/
+    --color-background-primary: white;
+    --color-background-secondary: #F4F4F4;
+    
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    animation: fadeInAnimation ease 1.2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    background-color: var(--color-text-secondary);
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+  }
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h4 {
+    font-size: 1.1rem;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.main-button {
+    background-color: var(--color-text);
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-radius: 0.4rem;
+    color: var(--color-background-primary);
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.main-button:hover {
+    background-color: #303030;
+}
+
+/*------------------------------------------------*/
+
+/* .tag {
+    opacity: 0;
+    transform: translate(0, 10vh);
+    transition: all 1s;
+  }
+  
+  .tag.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+  } */
+
+/*-----------------------------------------------*/
+
+#footer {
+    margin-top: 12rem;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem 2rem 0 0 ;
+    background-color: var(--color-text);
+    overflow-y: hidden;
+    justify-content: center;
+    color: var(--color-background-primary) !important;
+    text-align: center;
+}
+
+#footer h1 {
+    overflow: hidden;
+}
+
+#footer h3{
+    font-weight: 400 !important;
+    line-height: 1.25;
+    overflow: hidden;
+    opacity: 0.5;
+}
+
+#footer div h1 a {
+    color: var(--color-background-primary) !important;
+}
+
+#footer-character {
+    position: absolute;
+    margin-top: -16rem;
+    margin-right: 16vw;
+    right: 0;
+    height: 6rem;
+}
+
+/* ---------------------------------------------------------- */
+
+.header-button {
+    border-radius: 0.75rem;
+    border: 0.25rem solid var(--color-text);
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin-right: 1rem;
+}
+
+.title-text {
+    font-size: 3.5rem;
+}
+
+.header-button h2{
+    font-weight: 600;
+}
+
+.header-button img{
+    width: 3rem;
+}

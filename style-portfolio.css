@@ -1,0 +1,129 @@
+#vola {
+    background-color: #B7D58F !important;
+}
+
+#v-2C381A {
+    background-color: #2C381A;
+}
+
+#v-435426 {
+    background-color: #435426;
+}
+
+#v-83A84D {
+    background-color: #83A84D;
+}
+
+#v-9EBD6E {
+    background-color: #9EBD6E;
+    color: var(--color-text)
+}
+
+#v-2A2B2E {
+    background-color: #2A2B2E;
+}
+
+nav {
+    background-color: var(--color-background-primary);
+}
+
+#footer {
+    background-color: var(--color-background-secondary);
+    width: 100%;
+}
+
+/*-----------------------------------------*/
+
+#rendezvoo {
+    background-color: #2868A3 !important;
+    color: var(--color-background-primary);
+}
+
+#rendezvoo-header {
+    padding: 3rem;
+}
+
+#r-2868A3 {
+    background-color: #2868A3;
+}
+
+#r-DEE8F7 {
+    background-color: #DEE8F7;
+    color: var(--color-text)
+}
+
+
+#r-DEADAD {
+    background-color: #DEADAD;
+}
+
+#r-CA5B5B {
+    background-color: #CA5B5B;
+}
+
+#r-1B1B1B {
+    background-color: #1B1B1B;
+}
+
+#r-5A5A5A {
+    background-color: #5A5A5A;
+}
+
+#r-F8F8F8 {
+    background-color: #F8F8F8;
+    color: var(--color-text)
+}
+
+#r-F0F0F0 {
+    background-color: #F0F0F0;
+    color: var(--color-text)
+}
+
+#r-component {
+    width: 20rem;
+}
+
+#r-component-wrapper {
+    margin-right: 2rem;
+}
+
+#r-layer {
+    margin-top: 2.5rem;
+}
+
+/*-------------------------------------------*/
+
+#uwnavi {
+    background-color: #36C3C3 !important;
+}
+
+#u-36C3C3 {
+    background-color: #36C3C3;
+}
+
+#u-EBF9F9 {
+    background-color: #EBF9F9;
+    color: var(--color-text);
+}
+
+#u-E82A2A {
+    background-color: #E82A2A;
+}
+
+#u-2A2B2E {
+    background-color: #2A2B2E;
+}
+
+#u-8C8C8C {
+    background-color: #8C8C8C;
+}
+
+#u-FFFFFF {
+    background-color: #FFFFFF;
+    color: var(--color-text);
+}
+
+#u-F4F4F4 {
+    background-color: #F4F4F4;
+    color: var(--color-text);
+}
