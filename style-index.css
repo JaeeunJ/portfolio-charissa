@@ -32,7 +32,11 @@
     align-items: center; */
 }
 
-#header-title-content h1 {
+.header-title-content h4 {
+    text-indent: 3vw;
+}
+
+.header-title-content h1 {
     font-weight: 500;
     line-height: 5.2vw;
     overflow: hidden;

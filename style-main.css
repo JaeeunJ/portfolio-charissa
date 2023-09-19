@@ -41,7 +41,6 @@ body {
 
     /* -ms-overflow-style: none;
     scrollbar-width: none;  */
-
 }
 
 @keyframes fadeInAnimation {
@@ -104,6 +103,7 @@ h1 {
 
 .header-icon {
     height: 3.5vw;
+    margin-left: 1vw;
 }
 
 .header-icon-h2 {

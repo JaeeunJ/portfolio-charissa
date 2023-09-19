@@ -25,6 +25,22 @@
 
 /* --------------------------------------------------------- */
 
+#ctrlplusy-wrapper {
+    padding: 4vw;
+    background-color: #E9EFEB;
+}
+
+#ctrlplusy-content h2, #ctrlplusy-content h4 {
+    color: #09702C;
+}
+
+#ctrlplusy-wrapper img {
+    width: 100%;
+    margin-top: 4vw;
+}
+
+/* --------------------------------------------------------- */
+
 #liveguard-wrapper {
     background-color: #0088EB;
     padding: 4vw;
