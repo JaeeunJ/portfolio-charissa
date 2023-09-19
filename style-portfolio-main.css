@@ -26,6 +26,14 @@ section {
     margin-bottom: 2vw;
 }
 
+.problem-box ol {
+    margin-bottom: 2vw;
+}
+
+.problem-box ol li {
+    overflow: hidden;
+}
+
 .portfolio-header-title a {
     opacity: 0.5;
     margin-bottom: 2vw;;
@@ -130,9 +138,14 @@ section {
 }
 
 .portfolio-desc {
+    color:  var(--color-text-tertiary);
+    overflow: hidden;
+    font-weight: 400;
+}
+
+#disclaimer {
     opacity: 0.5;
-    color:  var(--color-text);
-} 
+}
 
 #portfolio-desc-content {
     margin-top: 2vw;
@@ -147,6 +160,47 @@ section {
 .portfolio-roles-2 div .portfolio-desc {
     width: 40vw;
 }
+
+/* ------------------------------------------------------------*/
+
+#definition-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+.definition {
+    background-color: var(--color-tertiary);
+    color: var(--color-text);
+    border-radius: 0.5rem;
+    width: 32.5%;
+}
+
+.definition-title {
+    display: flex;
+    margin: 2vw;
+    margin-bottom: 1vw;
+    width: 85%;
+    justify-content: space-between;
+}
+
+.definition-content {
+    margin: 2vw;
+    margin-top: 1vw;
+}
+
+.definition-content h6{
+    margin-top: 1vw;
+    color: var(--color-primary);
+    opacity: 0.4;
+}
+
+.definition-title img {
+    height: 2vw;
+}
+
+.definition 
 
 /* ------------------------------------------------------------*/
 
@@ -231,6 +285,7 @@ section {
 
 #portfolio-banner img {
     width: 100%;
+    border-radius: 0.5rem;
 }
 
 /* ---------------------------------------------------------- */
@@ -293,8 +348,24 @@ section {
     color: var(--color-text);
 }
 
+.final-content {
+    margin-bottom: 4vw;
+}
+
 iframe {
     margin-top: 2vw;
     width: 100%;
+}
+
+/* ---------------------------------------------------------- */
+
+#preview {
+    width: 100%;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+#preview-content {
+    margin-bottom: 4vw;
 }
 

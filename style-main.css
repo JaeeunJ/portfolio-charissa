@@ -9,7 +9,7 @@
     /*primary colors*/
     --color-primary: #0057FF;
     --color-secondary: #3F80FF;
-    --color-tertiary: #8BCCF0;
+    --color-tertiary: #DDE6F6;
 
     --color-secondary-darker: #DEDEDE;
     --color-secondary-darkest: #FAFAFA;
@@ -17,7 +17,7 @@
     /*typography & button colors*/
     --color-text: #1b1b1b;
     --color-text-secondary: #E2E8F8;
-    --color-text-tertiary: #CFCFCF;
+    --color-text-tertiary: #4C4E52;
 
     /*background colors*/
     --color-background-primary: #ECEFF8;
@@ -96,6 +96,11 @@ h1 {
     color: var(--color-primary)
 }
 
+.emphasis {
+    color: var(--color-text) !important;
+    opacity: 0.9 !important;
+    font-weight: 500;
+}
 
 .header-icon {
     height: 3.5vw;
@@ -180,6 +185,38 @@ ol {
     text-decoration: none;
     color: white;
 }
+
+.small-button {
+    background: var(--color-tertiary);
+    opacity: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 100rem;
+    width: 15vw;
+}
+
+.small-button:hover {
+    filter: brightness(92.5%);
+    cursor: pointer;
+}
+
+.small-button img {
+    margin-right: 1vw;
+    width: 1.5vw;
+}
+
+.small-button h4 {
+    margin: 0.5vw;
+    color: var(--color-primary) !important;
+    opacity: 100% !important;
+    font-weight: 600;
+    margin-left: 1vw;
+}
+
+.small-button:hover{
+    text-decoration: none !important;
+}
+
 
 /* -------------------------------------------------------- */
 

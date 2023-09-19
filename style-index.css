@@ -348,7 +348,7 @@
 
 #section-label {
     margin-right: 0.5rem;
-    border: solid 0.15rem var(--color-text-tertiary);
+    background-color: var(--color-background-secondary);
     border-radius: 100rem;
 }
 
@@ -357,7 +357,8 @@
     margin-bottom: 0.25rem;
     margin-left: 0.75rem;
     margin-right: 0.75rem;
-    color: var(--color-text-tertiary)
+    color: var(--color-secondary);
+    font-weight: 500;
 }
 
 
