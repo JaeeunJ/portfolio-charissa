@@ -105,19 +105,9 @@
 /* ------------------------------------------------------ */
 
 #low-fidelity {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 2vw;
-}
-
-#low-fidelity img {
-    width: 32%;
-}
-
-#low-fidelity-content {
-    width: 95%;
-    padding: 2vw;
-    background-color: var(--color-background-tertiary);
     border-radius: 0.25rem;
+}
+
+#low-fidelity img{
+    width: 100%;
 }

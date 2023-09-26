@@ -137,6 +137,10 @@ section {
     font-weight: 600;
 }
 
+#requirement {
+    margin-bottom: 0.5vw;
+}
+
 .portfolio-desc {
     color:  var(--color-text-tertiary);
     overflow: hidden;
@@ -144,7 +148,16 @@ section {
 }
 
 #disclaimer {
+    padding: 0.5vw;
+    background-color: var(--color-background-tertiary);
+    border-radius: 100vw;
+    width: 17vw;
+}
+
+#disclaimer h6 {
+    color: var(--color-text-primary);
     opacity: 0.5;
+    font-weight: 500;
 }
 
 #portfolio-desc-content {
@@ -265,6 +278,12 @@ section {
     margin-top: 1vw;
 }
 
+#space-above {
+    margin-top: 1vw;
+}
+
+
+
 #problem-solution {
     margin-left: 8vw;
     margin-right: 8vw;
@@ -279,8 +298,13 @@ section {
     margin-bottom: 2vw;
 }
 
+#banner-box {
+    overflow: hidden;
+}
+
 #portfolio-banner {
     margin-bottom: -0.5vw;
+    height: auto;
 }
 
 #portfolio-banner img {
