@@ -1,0 +1,282 @@
+* {
+    scroll-behavior: smooth;
+
+    font-family: 'Poppins';
+    overflow-x: hidden;
+    user-select: none;
+    margin: 0;
+
+    /*primary colors*/
+    --color-primary: #335DFC;
+    --color-tertiary: #F1F3FF;
+
+    /*typography & button colors*/
+    --color-text: #1b1b1b;
+    --color-text-secondary: #B9BAC1;
+    --color-text-tertiary: #9395A5;
+
+    /*background colors*/
+    --color-background-primary: #F8F9FC;
+    --color-background-secondary: #F4F4F9;
+    --color-background-tertiary: #E7EAF4;
+}
+
+body {
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    animation: fadeInAnimation ease 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    background-color: var(--color-background-primary);
+
+    /* -ms-overflow-style: none;
+    scrollbar-width: none;  */
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+ol {
+    padding-inline-start: 1rem;
+}
+
+
+
+/*------------------fonts-------------------*/
+
+a {
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight:500;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+h5 {
+    font-size: 1.15rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 5.25rem;
+}
+
+@media screen and (max-width: 600px) {
+    h4 {
+        font-size: 2.5vmax;
+    }
+}
+
+.highlight {
+    color: var(--color-primary);
+}
+
+.emphasis {
+    font-weight: 500;
+    color: var(--color-text)
+}
+
+.note {
+    color: var(--color-primary);
+    opacity: 0.4;
+}
+
+
+/*------------------buttons-------------------*/
+
+.primary-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--color-background-primary);
+    background-color: var(--color-primary);
+    padding: 0.7rem;
+    border-radius: 0.25rem;
+}
+
+.primary-button h4 {
+    margin-right: 0.5rem !important;
+}
+
+.primary-button-img {
+    display: flex;
+    width: 0.75rem;
+}
+
+.secondary-button {
+    background: var(--color-tertiary);
+    opacity: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 100rem;
+    width: 14rem;
+}
+
+.secondary-button:hover {
+    filter: brightness(96%);
+    cursor: pointer;
+}
+
+.secondary-button img {
+    margin-right: 1rem;
+    width: 1rem;
+}
+
+.secondary-button h5 {
+    margin: 0.5vw;
+    color: var(--color-primary) !important;
+    opacity: 100% !important;
+    font-weight: 600;
+    margin-left: 1vw;
+}
+
+
+/*------------------icons-------------------*/
+
+.icon-XL {
+    margin-bottom: -0.5rem;
+    height: 4rem;
+}
+
+.icon-M {
+    height: 2.75rem;
+    margin-right: -0.5rem;
+}
+
+.icon-S { 
+    height: 2.25rem;
+}
+
+.icon-XS {
+    height: 1.25rem;
+}
+
+
+.icon-wrapper {
+    text-align: center;
+}
+
+
+/*----------------containers-----------------*/
+
+section {
+    width: 99vw;
+    overflow: hidden;
+}
+
+.section-content {
+    margin-left: 16vmin;
+    margin-right: 16vmin;
+    overflow: visible;
+}
+
+.section-darker {
+    background-color: var(--color-background-secondary);
+}
+
+#section-darker {
+    background-color: var(--color-background-secondary);
+}
+
+/* --------------scrollbar-------------- */
+
+/* width */
+::-webkit-scrollbar {
+    width: 0.65rem;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--color-background-tertiary);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-primary)
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    display: block;
+    background: rgba(0, 0, 0, 10);
+  }
+
+
+
+  /* -----------------------------------------------------------*/
+
+#footer {
+    width: 100vw;
+    border-radius: 0;
+    background-color: var(--color-text);
+}
+
+#footer-content {
+    height: 15vw;
+    margin-right: 8vmax;
+    margin-left: 8vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+    color: var(--color-background-primary);
+}
+
+#footer-links {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+
+#footer-links img {
+    width: 1vw;
+    margin-left:0.25vw;
+}
+
+#footer-statement {
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-statement h3 {
+    font-weight: 400;
+}
+
+#footer-links a {
+    color: var(--color-background-primary);
+}
+
+#footer-links a:hover {
+    text-decoration: underline;
+}

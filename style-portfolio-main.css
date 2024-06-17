@@ -1,0 +1,359 @@
+.portfolio-header {
+    margin-top: 20vw;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.portfolio-header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 8vw;
+    margin-left: 8vw;
+}
+
+.portfolio-header-title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vw;
+}
+
+.portfolio-header-title a {
+    opacity: 0.5;
+    margin-bottom: 2rem;
+    color: var(--color-text)
+}
+
+.portfolio-header-title a:hover {
+    text-decoration: underline;
+}
+
+.portfolio-header-title h1 {
+    font-size: 4.5rem;
+    line-height: 4rem;
+    overflow: hidden;
+    margin-bottom: 0.5vw;
+}
+
+.portfolio-header-title h4 {
+    color: var(--color-text);
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+.header-title-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-title-content h5 {
+    color: var(--color-text-tertiary);
+    text-transform: none;
+    width: 50%;
+    display: flex;
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.portfolio-desc {
+    opacity: 0.9;
+    color:  var(--color-text);
+    overflow: hidden;
+    font-weight: 400;
+}
+
+.header-icon {
+    height: 3vw;
+    margin-left: 1vw;
+}
+
+/* -----------------roles--------------------- */
+
+.portfolio-roles-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.portfolio-roles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:auto;
+    margin-right: 8vw;
+    margin-left: 8vw;
+    background-color: var(--color-background-secondary);
+    padding: 2vw;
+    border-radius: 0.5rem;
+    margin-top: 1vw;
+}
+
+.portfolio-roles-content {
+    margin: 1vw;
+}
+
+.roles-title {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+#roles-link:hover {
+    text-decoration: underline;
+}
+
+/* ---------------section-title-------------- */
+
+.portfolio-section-title-wrapper {
+    margin-top: 2vw;
+}
+
+.problem-box {
+    margin-right: 8vw;
+    margin-left: 8vw;
+    margin-bottom: 2vw;
+}
+
+.problem-box h2 {
+    margin-bottom: 1vw;
+}
+
+.problem-box li:first-child{
+    margin-top: 1.5vw;
+}
+
+.problem-box ol li {
+    overflow: hidden;
+}
+
+.portfolio-section {
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+    width: 100%;
+}
+
+#portfolio-section-title, #portfolio-section-title-longer {
+    position: relative;
+    background-color: var(--color-background-primary);
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+    opacity: 0.25;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#portfolio-section-title:after, #portfolio-section-title-longer:after {
+    content: "";
+    display: block;
+    height: 0.15vw;
+    width: 100%;
+    opacity: 0.25;
+    position:absolute;
+    top: 50%;
+    left: 7vw;
+    background: var(--color-text);
+}
+
+#portfolio-section-title-longer:after {
+    left: 10vw;
+}
+
+/*----------------about--------------------*/
+
+#problem-statement h2 { 
+    line-height: 3rem;
+    overflow: hidden;
+}
+
+#portfolio-desc-content {
+    margin-top: 2vw;
+    text-indent: 2vw;
+    color: var(--color-text-tertiary)
+}
+
+/*--------------solution-------------------*/
+
+#portfolio-banner {
+    margin-bottom: -0.5vw;
+    height: auto;
+}
+
+#portfolio-banner img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.prototype-button{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.prototype-button:hover {
+    filter: brightness(75%);
+}
+
+#definition-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+.definition {
+    background-color: var(--color-tertiary);
+    color: var(--color-text);
+    border-radius: 0.5rem;
+    width: 32.5%;
+}
+
+.defintion-title {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+}
+
+.definition-title h3 {
+    margin: 2vw;
+    margin-bottom: 1vw;
+}
+
+.definition-content {
+    margin: 2vw;
+    margin-top: 0vw;
+}
+
+#portfolio-note {
+    margin-top: 1vw;
+}
+
+.definition-title img {
+    height: 2vw;
+}
+
+#requirement {
+    margin-bottom: 0.5vw;
+}
+
+/*--------------1st-iteration---------------*/
+
+#portfolio-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#portfolio-title h2 { 
+    line-height: 3.25rem;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+    margin-top: 0.75rem;
+}
+
+#portfolio-title h2, #portfolio-title h5, #disclaimer {
+    margin-right: auto;
+}
+
+#disclaimer {
+    padding: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: var(--color-background-tertiary);
+    border-radius: 100vw;
+    width: 15rem;
+}
+
+#disclaimer h6 {
+    color: var(--color-text-primary);
+    opacity: 0.5;
+    font-weight: 500;
+}
+
+#unmoderated-survey-content {
+    margin-top: 2vw;
+    padding: 2vw;
+    background-color: var(--color-background-tertiary);
+    border-radius: 0.5rem;
+}
+
+/*-------------design-system-------------*/
+
+#palette-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.palette-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: left !important;
+    text-align: left;
+}
+
+.palette-title h2 {
+    width: auto;
+    line-height: 3.25rem;
+    overflow: hidden;
+}
+
+#order {
+    margin-bottom: 0.25rem;
+    opacity: 0.5;
+}
+
+.palette-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.palette-content h5{
+    width: 60%;
+    margin-top: 0.5vw;
+}
+
+#see-figma-prototype img {
+    margin-bottom: -0.25rem;
+}
+
+.final-title a h2 {
+    color: var(--color-text);
+    line-height: 3.25rem;
+    overflow: hidden;
+    margin-bottom: 0.5vw;
+}
+
+.final-content {
+    margin-bottom: 2vw;
+}
+
+#preview {
+    width: 100%;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+#preview-content {
+    margin-bottom: 4vw;
+}
+
+iframe {
+    margin-top: 2vw;
+    width: 100%;
+}
+
+#palette-img-wrapper {
+    margin-top: 2.5vw;
+    background-color: var(--color-background-secondary);
+    border-radius: 0.5rem;
+    margin-bottom: 4vw;
+    display: flex;
+}
+
+#palette-img-wrapper img{
+    width: 100%;
+    padding-left: 0;
+}
